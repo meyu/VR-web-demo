@@ -32,11 +32,11 @@ function changeView() {
 }
 
 var imgs = [
-	"img/DSCN0072-min.JPG",
-	"img/DSCN0073-min.JPG",
-	"img/DSCN0075-min.JPG",
-	"img/DSCN0077-min.JPG",
-	"img/DSCN0079-min.JPG"
+	"https://meyu.github.io/VR-web-demo/img/DSCN0072-min.JPG",
+	"https://meyu.github.io/VR-web-demo/img/DSCN0073-min.JPG",
+	"https://meyu.github.io/VR-web-demo/img/DSCN0075-min.JPG",
+	"https://meyu.github.io/VR-web-demo/img/DSCN0077-min.JPG",
+	"https://meyu.github.io/VR-web-demo/img/DSCN0079-min.JPG"
 ];
 
 function loadHotSpot() {
