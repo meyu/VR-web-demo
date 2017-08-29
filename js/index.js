@@ -32,7 +32,6 @@ function changeView() {
 }
 
 var imgs = [
-	"https://meyu.github.io/VR-web-demo/img/DSCN0072-min.JPG",
 	"https://meyu.github.io/VR-web-demo/img/DSCN0073-min.JPG",
 	"https://meyu.github.io/VR-web-demo/img/DSCN0075-min.JPG",
 	"https://meyu.github.io/VR-web-demo/img/DSCN0077-min.JPG",
