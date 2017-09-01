@@ -1,6 +1,26 @@
 // https://developers.google.com/vr/concepts/vrview-web
 window.addEventListener("load", onVrViewLoad);
+window.addEventListener("load", onVrVideoLoad);
 var vrView;
+var vrVideo;
+
+
+function onVrVideoLoad() {
+	vrVideo = new VRView.Player("#vrvideo", {
+		video: "https://meyu.github.io/VR-web-demo/img/DSCN0078.m4v",
+		is_stereo: false
+	});
+
+	vrView.on("ready", function() {
+		loadHotSpot();
+	});
+
+	vrView.on("click", function(event) {
+		if (event.id.match(/hs[0-9]/)) {
+			changeView();
+		}
+	});
+}
 
 function onVrViewLoad() {
 	vrView = new VRView.Player("#vrview", {
